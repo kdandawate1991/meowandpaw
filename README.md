@@ -1,4 +1,5 @@
 NOTE TO REVIEWER: 
+- I have used playwright framework with pytest for UI tests, and just pytest framework for API tests. 
 - All tests written are functional
 - deally I would also write tests for data correctness against actual datastore
 - If not already covered in unit tests by developers, I would also write schema validations for each API
