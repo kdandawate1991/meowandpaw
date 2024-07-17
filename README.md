@@ -11,6 +11,7 @@ SETUP ENV:
 - activate the virtual environment : source newenv/bin/activate
 - install requirements: pip3 install -r requirements.txt
 - install playwright drivers: playwright install
+- If the tests fail due to unrecognized arguments, you could try re-sourcing the virtual env:  source newenv/bin/activate
 
 RUN TESTS:
 - command to run all ui and api tests together: pytest
